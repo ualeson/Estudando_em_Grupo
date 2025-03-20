@@ -70,3 +70,9 @@
 #area = math.pi * raio**2
 #print("A área do círculo é", area)
 #print(math.pi)
+
+
+#numero_inteiro = int(input("Digite um número inteiro: "))
+#numero_inteiro2 = input("Digite outro número inteiro: ")
+
+#print(f"Você inseriu um número inteiro e o valor digitado foi:{numero_inteiro}")
