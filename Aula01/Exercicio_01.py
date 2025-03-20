@@ -76,3 +76,112 @@
 #numero_inteiro2 = input("Digite outro número inteiro: ")
 
 #print(f"Você inseriu um número inteiro e o valor digitado foi:{numero_inteiro}")
+
+
+
+
+#Exibir de 1 a 10 na tela usando estrutura de repetição for
+# for cont in range(1,11):
+#     print(cont)
+#
+#     if cont % 2 == 0:
+#         print("Número par")
+#     else:
+#         print("Número ímpar")
+
+# numero =  int(input("Digite um número: "))  
+
+# if numero % 2 == 0:
+#     print("Número par")
+# else:
+#     print("Número ímpar")
+
+
+# cont = 0
+
+# while cont <= 10:
+
+#     if cont % 2 == 0:
+#         print(cont)
+#     else:
+#         print("Número ímpar")
+#     cont += 1
+
+
+# crie um script que irá solicitar ao  usuários dados de funcionários, mas você poderar cadastrar mais de uma informação ao mesmo tempo, de acordo com a necessidade (utilize somente o terminal)
+    
+# quantidade = int(input("Digite a quantidade de funcionários: "))
+
+# nome = input("Digite o nome do funcionário: ")
+# idade = int(input("Digite a idade do funcionário: "))
+# salario = float(input("Digite o salário do funcionário: "))
+
+
+# quantidade = int(input("Digite a quantidade de cadastros: ")) 
+
+# for cont in range(0,quantidade):
+#     nome = input("Digite o nome do funcionário: ")
+#     idade = int(input("Digite a idade do funcionário: "))
+#     salario = float(input("Digite o salário do funcionário: "))
+
+    
+
+#     print(f"O nome é: {nome}" " a idade é: ", idade , "e o salario: ", salario)
+
+
+# lista_nomes = []
+# lista_idade = []
+# lista_salario = []
+
+# quantidade = int(input("Digite a quantidade de dados para inserir na lista:"))
+
+# for cont in range(quantidade):
+#   preencher_nomes = input("Digite os nomes da lista:")
+#   lista_nomes.append(preencher_nomes)
+
+#   preencher_idade = input("Digite as idade da lista:")
+#   lista_idade.append(preencher_idade)
+
+#   preencher_salario = input("Digite os salarios da lista:")
+#   lista_salario.append(preencher_salario)
+
+# print(lista_nomes)
+# print(lista_idade)
+# print(lista_salario)
+
+
+# lista_dados = []
+
+# quantidade = int(input("Digite a quantidade de dados para inserir na lista:"))
+
+# for cont in range(quantidade):
+#   preencher_nome = input("Digite o nome: ")
+#   preencher_idade = input("Digite a idade")
+#   preencher_salario = input("Digite o salario:")
+
+#   lista_dados.append(preencher_nome)
+#   lista_dados.append(preencher_idade)
+#   lista_dados.append(preencher_salario)
+
+
+# print(lista_dados)
+
+#@title Aula de Python: Part 2
+
+dicionario = {}  # Criar um dicionário vazio
+
+quantidade = int(input("Digite a quantidade de elementos a serem adicionados: "))
+
+for contador in range(quantidade):
+    chave = input("Digite a chave: ")
+    valor = input("Digite o valor: ")
+    dicionario[chave] = valor  # Adicionar a chave e valor ao dicionário
+
+print("O dicionário final é:", dicionario)
+
+print(dicionario.keys())
+print(dicionario.values())
+print(dicionario.items())
+print(dicionario.get("Nome"),dicionario.get("Idade") )
+print(dicionario.clear())
+print(dicionario)
