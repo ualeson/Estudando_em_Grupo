@@ -85,9 +85,9 @@
 
 #------------------------------------------------------------
 
-# SENHA = "U@l3$0n"
+SENHA = "U@l3$0n"
 
-# valor = input("Digite a senha: ")
+valor = input("Digite a senha: ")
 
 # while True:
 #     if valor == SENHA:
@@ -99,9 +99,13 @@
 #         continue
 
 # Versão realizada pela IA (GTP4)
-# while SENHA != valor:
-#     print("Senha invalida !")
-#     valor = input("Digite a senha: ")
-# print("Senha correta!")
+while SENHA != valor:
+     print("Senha invalida !")
+     valor = input("Digite a senha: ")
+
+SENHA = 12345
+
+
+print("Senha correta!", "A nova senha é:", SENHA)
 
 #--------------------------------------------------------------
