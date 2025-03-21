@@ -83,18 +83,25 @@
 
 # print(lista_nomes)
 
-SENHA = "U@l3$0n"
+#------------------------------------------------------------
 
-valor = input("Digite a senha: ")
+# SENHA = "U@l3$0n"
 
-while True:
-    if valor == SENHA:
-        print("Senha correta !")
-        break
-    else:
-        print("Senha incorreta !")
-        valor = input("Digite a senha: ")
-        continue
-    
+# valor = input("Digite a senha: ")
 
+# while True:
+#     if valor == SENHA:
+#         print("Senha correta !")
+#         break
+#     else:
+#         print("Senha incorreta !")
+#         valor = input("Digite a senha: ")
+#         continue
 
+# Versão realizada pela IA (GTP4)
+# while SENHA != valor:
+#     print("Senha invalida !")
+#     valor = input("Digite a senha: ")
+# print("Senha correta!")
+
+#--------------------------------------------------------------

@@ -170,20 +170,20 @@
 
 #@title Aula de Python: Part 2
 
-dicionario = {}  # Criar um dicionário vazio
+# dicionario = {}  # Criar um dicionário vazio
 
-quantidade = int(input("Digite a quantidade de elementos a serem adicionados: "))
+# quantidade = int(input("Digite a quantidade de elementos a serem adicionados: "))
 
-for contador in range(quantidade):
-    chave = input("Digite a chave: ")
-    valor = input("Digite o valor: ")
-    dicionario[chave] = valor  # Adicionar a chave e valor ao dicionário
+# for contador in range(quantidade):
+#     chave = input("Digite a chave: ")
+#     valor = input("Digite o valor: ")
+#     dicionario[chave] = valor  # Adicionar a chave e valor ao dicionário
 
-print("O dicionário final é:", dicionario)
+# print("O dicionário final é:", dicionario)
 
-print(dicionario.keys())
-print(dicionario.values())
-print(dicionario.items())
-print(dicionario.get("Nome"),dicionario.get("Idade") )
-print(dicionario.clear())
-print(dicionario)
+# print(dicionario.keys())
+# print(dicionario.values())
+# print(dicionario.items())
+# print(dicionario.get("Nome"),dicionario.get("Idade") )
+# print(dicionario.clear())
+# print(dicionario)
