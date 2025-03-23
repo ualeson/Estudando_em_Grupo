@@ -150,4 +150,8 @@
 
 # print(f"O loop durou {duracao_time:.2f} segundos")
 #-------------------------------------------------
+import datetime
 
+horario = datetime.datetime.now()
+print("Horário de início: ", horario.strftime("%H:%M:%S"))
+#-------------------------------------------------
