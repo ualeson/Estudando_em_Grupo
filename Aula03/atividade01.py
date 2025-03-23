@@ -12,31 +12,31 @@
 # aluno["idade"] = 21
 # print(aluno)            # imprime {"nome": "Alice", "idade": 21, "curso": "Ciências da Computação"}
 
-a = "Adicionar Valor"
-b = "Sair"
-c = "Mostrar Dicionário"
+# a = "Adicionar Valor"
+# b = "Sair"
+# c = "Mostrar Dicionário"
 
-dicionario_vazio = {}
-contador = 1
+# dicionario_vazio = {}
+# contador = 1
 
-while True:
-    print(f"1 - {a}")
-    print(f"2 - {b}")
-    print(f"3 - {c}")
-    opcao = int(input("Digite a opção desejada: "))
+# while True:
+#     print(f"1 - {a}")
+#     print(f"2 - {b}")
+#     print(f"3 - {c}")
+#     opcao = int(input("Digite a opção desejada: "))
     
-    if opcao == 1:
-        pessoa = {}
-        pessoa["Nome"] = input("Digite seu nome: ")
-        pessoa["Idade"] = input("Digite sua idade: ")
-        pessoa["Salario"] = input("Digite seu salario: ")
+#     if opcao == 1:
+#         pessoa = {}
+#         pessoa["Nome"] = input("Digite seu nome: ")
+#         pessoa["Idade"] = input("Digite sua idade: ")
+#         pessoa["Salario"] = input("Digite seu salario: ")
         
-        dicionario_vazio[f"Pessoa {contador}"] = pessoa
-        contador += 1
-        print("Informações adicionadas com sucesso!")
-    elif opcao == 2:
-        break
-    elif opcao == 3:
-        print(dicionario_vazio)
-    else:
-        print("Opção inválida")
+#         dicionario_vazio[f"Pessoa {contador}"] = pessoa
+#         contador += 1
+#         print("Informações adicionadas com sucesso!")
+#     elif opcao == 2:
+#         break
+#     elif opcao == 3:
+#         print(dicionario_vazio)
+#     else:
+#         print("Opção inválida")
