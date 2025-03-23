@@ -134,3 +134,20 @@
 # else:
 #     print("Loop finalizado com sucesso!")
 #-------------------------------------------------
+# import time
+
+# iniciar_time = time.time()
+
+# contador = 1
+# while contador <= 50000:
+#     print("Executando:", contador)
+#     contador += 1
+# else:
+#     print("Loop finalizado com sucesso!")
+
+# final_time = time.time()
+# duracao_time = final_time - iniciar_time
+
+# print(f"O loop durou {duracao_time:.2f} segundos")
+#-------------------------------------------------
+
