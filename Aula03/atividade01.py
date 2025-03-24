@@ -146,6 +146,7 @@
 #     print("Loop finalizado com sucesso!")
 
 # final_time = time.time()
+
 # duracao_time = final_time - iniciar_time
 
 # print(f"O loop durou {duracao_time:.2f} segundos")
@@ -153,7 +154,8 @@
 # import datetime
 
 # horario = datetime.datetime.now()
-# print("Horário de início: ", horario.strftime("%H:%M:%S"), "Data: ", horario.strftime("%d/%m/%Y"))
+#print(horario)
+# print("Horário de início: ", horario.strftime("%H:%M"), "Data: ", horario.strftime("%d/%m/%Y"))
 #DateTime.now() é uma função que retorna a data e hora atual do sistema, e o strftime() é uma função que formata a data e hora de acordo com o formato especificado.
 #-------------------------------------------------
 # nomes = ["Ualeson", "Natalia", "Edson", "Uilson", "Mamal"]
