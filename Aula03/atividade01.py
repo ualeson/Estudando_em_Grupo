@@ -194,4 +194,57 @@
 #     print(f"{chave}: {valor}")
 #O loop for também pode ser utilizado para percorrer os itens de um dicionário. No exemplo acima, a variável chave recebe a chave e a variável valor recebe o valor de cada item do dicionário dados, e imprime na tela.
 #-------------------------------------------------
+# numeros = [1,2,3,4,5]
 
+# dobrados = [num * 2 for num in numeros]
+# print("Os números dobrados são: ", dobrados)
+#A compreensão de listas (list comprehension) é uma forma concisa de criar listas em Python. No exemplo acima, a lista dobrados é criada a partir da lista numeros, onde cada elemento é dobrado (multiplicado por 2) utilizando a sintaxe [num * 2 for num in numeros].
+#-------------------------------------------------
+# numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# pares = [num for num in numeros if num % 2 == 0]
+# print("Números pares:", pares)
+#A compreensão de listas (list comprehension) também pode ser utilizada com condicionais. No exemplo acima, a lista pares é criada a partir da lista numeros, onde cada elemento é verificado se é par (num % 2 == 0) e adicionado à lista pares.
+#-------------------------------------------------
+# matriz = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
+
+# for linha in matriz:
+#     for elemento in linha:
+#         print(elemento, end=" ")
+#     print()
+#A compreensão de listas (list comprehension) também pode ser utilizada com listas aninhadas, como uma matriz. No exemplo acima, a matriz é percorrida utilizando dois loops for, onde o primeiro loop percorre as linhas e o segundo loop percorre os elementos de cada linha, imprimindo na tela.
+#-------------------------------------------------
+# num = 5
+# for i in range(1, 11):
+#     print(f"{num} x {i} = {num * i}")
+#O loop for também pode ser utilizado para criar tabuadas. No exemplo acima, o loop for percorre a sequência de 1 a 10, e imprime a tabuada do número 5.
+#-------------------------------------------------
+# nomes = ["Ana", "Carlos", "Maria", "João"]
+# for indice, nome in enumerate(nomes):
+#     print(f"Índice {indice}: {nome}")
+#O loop for também pode ser utilizado com a função enumerate() para obter o índice e o valor de uma lista. No exemplo acima, a função enumerate() retorna o índice e o nome de cada elemento da lista nomes, e imprime na tela.
+#-------------------------------------------------
+# nomes = ["Ana", "Carlos", "Maria"]
+# idades = [25, 30, 22]
+
+# for nome, idade in zip(nomes, idades):
+#     print(f"{nome} tem {idade} anos.")
+#O loop for também pode ser utilizado com a função zip() para combinar duas listas. No exemplo acima, a função zip() combina os elementos das listas nomes e idades, e imprime na tela o nome e a idade correspondente.
+#-------------------------------------------------
+# numeros = [10, 20, 30, 40, 50]
+# for num in numeros:
+#     if num == 40:
+#         print("Número encontrado! Parando...")
+#         break
+#     print(num)
+#O comando break é utilizado para interromper a execução de um loop for. No exemplo acima, o loop for percorre a lista numeros, e ao encontrar o número 40, o loop é interrompido com o comando break.
+#-------------------------------------------------
+# for i in range(1, 6):
+#     if i == 3:
+#         continue  # Pula o número 3
+#     print(i)
+#O comando continue é utilizado para pular a iteração atual de um loop for e continuar para a próxima iteração. No exemplo acima, o loop for percorre a sequência de 1 a 5, e ao encontrar o número 3, a iteração é pulada com o comando continue.
+#-------------------------------------------------
