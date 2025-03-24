@@ -150,8 +150,48 @@
 
 # print(f"O loop durou {duracao_time:.2f} segundos")
 #-------------------------------------------------
-import datetime
+# import datetime
 
-horario = datetime.datetime.now()
-print("Horário de início: ", horario.strftime("%H:%M:%S"))
+# horario = datetime.datetime.now()
+# print("Horário de início: ", horario.strftime("%H:%M:%S"), "Data: ", horario.strftime("%d/%m/%Y"))
+#DateTime.now() é uma função que retorna a data e hora atual do sistema, e o strftime() é uma função que formata a data e hora de acordo com o formato especificado.
 #-------------------------------------------------
+# nomes = ["Ualeson", "Natalia", "Edson", "Uilson", "Mamal"]
+# for nome in nomes:
+#     print("Nome: ", nome)
+# O for é um loop que percorre uma sequência de elementos (lista, tupla, string, etc.) e executa um bloco de código para cada elemento. No exemplo acima, a variável nome recebe cada elemento da lista nomes e imprime na tela.
+#-------------------------------------------------
+# for cont in range(10,0,-1):
+#     print(cont)
+# print("Fogo!")
+#O range() é uma função que gera uma sequência de números, e é muito utilizada em loops for. O range() aceita até três argumentos: início, fim e passo. No exemplo acima, o loop for percorre a sequência de 10 a 1, com passo -1, ou seja, decrementando de 1 em 1.
+#-------------------------------------------------
+# palavra = "Estude Python!"
+
+# for letra in palavra:
+#     print(letra)
+    #O loop for também pode ser utilizado para percorrer os caracteres de uma string. No exemplo acima, a variável letra recebe cada caractere da string palavra e imprime na tela.
+#-------------------------------------------------
+# for numero in range(2,11,2):
+#     print("Par: ", numero)
+#O loop for também pode ser utilizado para percorrer uma sequência de números. No exemplo acima, o loop for percorre a sequência de 2 a 10, com passo 2, ou seja, incrementando de 2 em 2.
+#-------------------------------------------------
+# numeros = [10, 20, 30, 40, 50]
+# soma = 0
+
+# for num in numeros:
+#     soma += num
+# print("Soma total: ", soma)
+#O loop for também pode ser utilizado para percorrer os elementos de uma lista. No exemplo acima, a variável num recebe cada elemento da lista numeros e soma os valores.
+#-------------------------------------------------
+# dados = {
+#     "Nome": "Ualeson",
+#     "Idade": 35,
+#     "Cidade": "Salvador"
+# }
+
+# for chave, valor in dados.items():
+#     print(f"{chave}: {valor}")
+#O loop for também pode ser utilizado para percorrer os itens de um dicionário. No exemplo acima, a variável chave recebe a chave e a variável valor recebe o valor de cada item do dicionário dados, e imprime na tela.
+#-------------------------------------------------
+
