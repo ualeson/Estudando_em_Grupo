@@ -154,7 +154,7 @@
 # import datetime
 
 # horario = datetime.datetime.now()
-#print(horario)
+# print(horario)
 # print("Horário de início: ", horario.strftime("%H:%M"), "Data: ", horario.strftime("%d/%m/%Y"))
 #DateTime.now() é uma função que retorna a data e hora atual do sistema, e o strftime() é uma função que formata a data e hora de acordo com o formato especificado.
 #-------------------------------------------------
